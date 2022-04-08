@@ -1,0 +1,19 @@
+body
+{
+    text-align: center;
+    background-color: azure;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 2rem;
+    column-gap: 0.5rem;
+}
+
+img
+{
+    width: 450px;
+}
